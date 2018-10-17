@@ -9,7 +9,7 @@ scientific web-apps based on
 * Pandas
 * Matplotlib
 
-The original docker build environment is from 
+The original docker build environment is from
 https://github.com/tiangolo/uwsgi-nginx-flask-docker
 
 
