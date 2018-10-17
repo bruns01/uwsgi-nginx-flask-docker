@@ -5,12 +5,12 @@ LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
 RUN pip install flask
 # Br:
 # Flask extensions
-COPY py_requirements_flask py_requirements_flask 
+COPY python3.6-alpine3.7/py_requirements_flask py_requirements_flask 
 RUN pip install -r py_requirements.flask 
 
 #Br:
 # scientific packages
-COPY py_requirements_sci py_requirements_sci 
+COPY python3.6-alpine3.7/py_requirements_sci py_requirements_sci 
 RUN pip install -r py_requirements_sci 
 
 # By default, allow unlimited file sizes, modify it to limit the file sizes
