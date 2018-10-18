@@ -6,7 +6,7 @@ RUN pip install flask
 # Br:
 # Flask extensions
 COPY python3.6-alpine3.7/py_requirements_flask py_requirements_flask 
-RUN pip install -r py_requirements.flask 
+RUN pip install -r py_requirements_flask 
 
 #Br:
 # scientific packages
